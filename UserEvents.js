@@ -5,5 +5,6 @@ export class User extends EventEmitter {
     createPost() {
         console.log('Post Created');
         this.emit('postCreated');
+
     }
 }
