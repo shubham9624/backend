@@ -13,4 +13,4 @@ static isValidUser(username,password){
     return result;
 }
 }
-const users=[];
+const users=[new UserModel('sam','admin@gmail.com',1234)];

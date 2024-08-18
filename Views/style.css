@@ -174,3 +174,13 @@ img {
   color: red;
   margin-bottom: 15px;
 }
+.last-visit-message {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}

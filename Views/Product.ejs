@@ -12,6 +12,11 @@
           </tr>
         </thead>
         <tbody>
+          <% if (locals.lastVisit) { %>
+            <div class="last-visit-message">
+                Your last visit was on <%= locals.lastVisit %>
+            </div>
+        <% } %>
           <% p.forEach(product => { %>
             <tr>
               <td><%= product.id %></td>
